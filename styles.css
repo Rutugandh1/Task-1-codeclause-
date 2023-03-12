@@ -1,0 +1,128 @@
+body {
+    padding-top: 0px;
+    background-color:black;
+    font-family: sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-bottom: 20;
+    padding: 6px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    
+    
+  }
+  li{
+    font-size: 25px;
+    color: #333D79FF;
+    text-align: center;
+  }
+  h1 {
+    color: #edf5e1;
+    font-family:;
+  }
+
+  
+  .converter {
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color:white;
+    padding: 50px 50px 170px 50px;
+  }
+  
+  .converter input {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  
+  .converter span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 10px;
+
+  }
+  
+  .converter span select {
+    background-color: #333D79FF;
+    color: #FAEBEFFF;
+    font-size: inherit;
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    border-radius: 0px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    border-radius: 10px;
+    
+  }
+  
+  .converter span::before,
+  .converter span::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    
+  }
+  
+  .converter span::after { 
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.5em;
+    top: 50%;
+    margin-top: -.5em;
+    color: #131B24;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  .converter span::before { 
+    width: 2.5em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0;
+    background-color: #186bbe;
+  }
+  
+  .converter-first,
+  .converter-second {
+    float: left;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 45%;
+  }
+  
+  .equals {
+    float: left;
+    box-sizing: border-box;
+    width: 10%;
+    color:#131B24 ;
+    font-size: 2.4em;
+    line-height: 0;
+    text-align: center;
+    
+  }
+  
+  .converter-first {
+    padding-right: 10px;
+  }
+  
+  .converter-second {
+    padding-left: 10px;
+  }
